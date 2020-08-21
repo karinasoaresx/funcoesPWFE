@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Atividade Funções </title>
+</head>
+
+<body>
+    <div id="primeiraQst">
+        <div id="insercao">
+            <form name="frmQuadrado" method="get" action="index.html">
+               <span class="font"> Digite um número: </span>  
+                <input id="numero" type="text" name="txtFuncoes" value="" placeholder="Digite somente números">
+                <input id="calcular" type="button" name="calcular" value="Mostrar o número ao quadrado">
+            </form>
+        </div>
+        <div id="resultado"></div>
+    </div>
+
+    <div id="segundaQst">
+        <div id="segundaInsercao">
+            <form name="frmMaior" method="get" action="index.html">
+               <span class="font"> Digite o 1º número: </span>   
+                <input id="valor1" type="text" name="txtFuncoes" value="" placeholder="Digite somente números">
+                <span class="font"> Digite o 2º número: </span>
+                <input id="valor2" type="text" name="txtFuncoes" value="" placeholder="Digite somente números">
+                <input id="segundoCalcular" type="button" name="calcular" value="Mostrar o maior número">
+            </form>
+        </div>
+        <div id="segundoResultado"></div>
+    </div>
+
+    <div id="terceiraQst">
+        <div id="terceiraInsercao">
+            <form name="frmNomeEstados" method="get" action="index.html">
+                <span class="font"> Nome: </span>
+                <input id="nome" type="text" name="txtNome" value="" placeholder="Digite seu nome">
+                <span class="font"> Estados da região Sudeste: </span>
+                <div id="containerEstados">
+                    <input class="estados" type="radio" name="rdoEstados" value="Espirito Santo"> Espirito Santo
+                    <input class="estados" type="radio" name="rdoEstados" value="Minas Gerais"> Minas Gerais
+                    <input class="estados" type="radio" name="rdoEstados" value="Rio de Janeiro"> Rio de Janeiro
+                    <input class="estados" type="radio" name="rdoEstados" value="São Paulo"> São Paulo
+                </div>
+                <input id="terceiroCalcular" type="button" name="calcular" value="Mostrar nome e estado">
+            </form>
+        </div>
+        <div id="terceiroResultado"></div>
+    </div>
+
+    <div id="quartaQst">
+        <div id="quartaInsercao">
+            <form name="frmNomeProf" method="get" action="index.html">
+                <span class="font"> Nome: </span>
+                <input id="nomeDois" type="text" name="txtNome" value="" placeholder="Digite seu nome">
+                <span class="font"> Profissões: </span>
+                <div id="containerProfissoes">
+                    <input class="profissoes" type="checkbox" name="ckbFrtEnd" value="Front-End"> Front-End <br>
+                    <input class="profissoes" type="checkbox" name="ckbBkEnd" value="Back-End"> Back-End <br>
+                    <input class="profissoes" type="checkbox" name="ckbBD" value="Banco de Dados"> Banco de Dados <br>
+                    <input class="profissoes" type="checkbox" name="ckbDispMoveis" value="Dispositivos Móveis"> Dispositivos Móveis <br>
+                </div>
+                <input id="quartoCalcular" type="button" name="calcular" value="Mostrar nome e profissão">
+            </form>
+        </div>
+        <div id="quartoResultado"></div>
+    </div>
+    
+    <script src="./javascript.js"></script>
+</body>
+</html>
