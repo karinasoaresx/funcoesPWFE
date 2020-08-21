@@ -66,7 +66,7 @@ const checkbox = () => {
 }   
 
 const resolverExer04 = () => {
-    resultado4.innerHTML = checkbox() + " são áres de preferência de " + nomeDois.value;
+    resultado4.innerHTML = checkbox() + " são áreas de preferência de " + nomeDois.value;
 }
     
 calcular4.addEventListener('click', resolverExer04);    
